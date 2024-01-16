@@ -1,0 +1,49 @@
+.input-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.item-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.item-list div {
+    padding: 8px;
+    cursor: pointer;
+    user-select: all;
+}
+
+.item-list div:hover {
+    background-color: #f1f1f1;
+}
+
+
+.item{
+    display: flex;
+    flex-direction: row;
+}
+
+.email{
+    text-align: center;
+    font-size: 12px;
+}
